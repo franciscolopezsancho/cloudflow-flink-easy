@@ -1,0 +1,18 @@
+{
+    "namespace": "sensordata",
+    "type": "record",
+    "name": "SensorData",
+    "fields":[
+         {
+            "name": "deviceId",
+            "type": {
+                "type": "string",
+                "logicalType": "uuid"
+            }
+         },
+         {
+            "name": "count",
+            "type": "int"
+         }
+    ]
+}
